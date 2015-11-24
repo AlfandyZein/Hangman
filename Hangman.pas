@@ -1,11 +1,11 @@
-(* NIM/Nama	 	   : 1. 16511022/Azka Ihsan Nurrahman    *)
-(*           		 2. 16511100/Renandhitya Fawzian     *)
-(*          	     3. 16511172/Bima Laksmana Pramudita *)
-(*           		 4. 16511250/M. Erwin Susetyo        *)
-(*           		 5. 16511322/Kevin Verdi             *)
-(* Nama File	   : TB_04_04.pas                        *)
-(* Topik		   : Tugas Besar 						 *)
-(* Tanggal 	 	   : 28 November 2011                    *)
+(* NIM/Nama		: 1. 16511022/Azka Ihsan Nurrahman    *)
+(*           		  2. 16511100/Renandhitya Fawzian     *)
+(*          	     	  3. 16511172/Bima Laksmana Pramudita *)
+(*           		  4. 16511250/M. Erwin Susetyo        *)
+(*           		  5. 16511322/Kevin Verdi             *)
+(* Nama File	   	: TB_04_04.pas                        *)
+(* Topik		: Tugas Besar 			      *)
+(* Tanggal 	 	: 28 November 2011                    *)
 (* Deskripsi 	   : Program ini adalah program peran tebak kata ( Hangman ) dengan spesifikasi yang telah diperintahkan, *)
 (*                   di mana pada program utama terdapat modus persiapan game, modus tebak kata, dan modus untuk keluar   *)
 (*                   dari program. Serta terdapat beberapa spesifikasi tambahan, seperti menu bantuan, dll.               *)
@@ -111,10 +111,10 @@ procedure login (var uonline : integer )  ;
 	begin
 		clrscr ;
 		repeat
-			textbackground(lightblue);
-			textcolor(white);
-		    writeln;
-		    writeln('###############################################################################');
+		textbackground(lightblue);
+		textcolor(white);
+		writeln;
+		writeln('###############################################################################');
 	        writeln('###########################  Program HANGMAN  #################################');
 	        writeln('###############################################################################');
 	        writeln('############### Created by : Azka, Bima, Erwin, Kevin, Renand #################');
